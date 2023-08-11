@@ -4,7 +4,6 @@ import java.util.Arrays;
 
 public class DisjointSet {
   private final int[] parent;
-
   private boolean hasCycle = false;
 
   public DisjointSet(int[][] edges) {
@@ -49,21 +48,6 @@ public class DisjointSet {
     }
     return result;
   }
-
-  // The main function to check whether a given graph
-  // contains cycle or not
-//  public boolean hasCycle() {
-//    // Iterate through all edges of graph, find subset
-//    // of both vertices of every edge, if both subsets
-//    // are same, then there is cycle in graph.
-//    for (int[] edge : edges) {
-//      int x = find(edge[0]);
-//      int y = find(edge[1]);
-//      if (x == y) return true;
-//    }
-//    return false;
-//  }
-
 
   public boolean hasCycle() {
     return hasCycle;

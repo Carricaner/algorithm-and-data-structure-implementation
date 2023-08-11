@@ -8,11 +8,12 @@ public class Demo {
     | \
     |  \
     1---2 */
-    int[][] edges = new int[][] {
-        {0, 1},
-        {1, 2},
-        {2, 0},
-    };
+    int[][] edges =
+        new int[][] {
+          {0, 1},
+          {1, 2},
+          {2, 0},
+        };
     DisjointSet djs = new DisjointSet(edges);
     System.out.println(djs.subsetSize());
     System.out.println(djs.hasCycle());
