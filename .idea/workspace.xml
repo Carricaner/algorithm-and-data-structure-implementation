@@ -5,7 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="55ddeafc-42d9-47a9-b378-e4fc2592fecb" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/disjointset/DisjointSetInnerMapDataStore.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/disjointset/DisjointSetInnerMapDataStore.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -28,6 +28,9 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
   <component name="ProjectId" id="2TmtHuBoc2N8flvWwLNtZycFYP0" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="1" id="Add" />
@@ -49,7 +52,7 @@
 }]]></component>
   <component name="RunManager">
     <configuration name="Demo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Demo" />
+      <option name="MAIN_CLASS_NAME" value="com.example.disjointset.Demo" />
       <module name="algo-impl.main" />
       <method v="2">
         <option name="Make" enabled="true" />
