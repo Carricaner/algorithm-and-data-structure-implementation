@@ -1,13 +1,14 @@
-package com.example.unionfind;
+package com.example.disjointset;
 
 import java.util.Arrays;
 
-public class DisjointSet {
+public class DisjointSetInnerArrayDataStore implements UnionFindable{
   private final int[] parent;
   private final int[] rank;
+
   private boolean hasCycle = false;
 
-  public DisjointSet(int[][] edges) {
+  public DisjointSetInnerArrayDataStore(int[][] edges) {
     parent = new int[getMax(edges) + 1];
     rank = new int[getMax(edges) + 1];
     Arrays.fill(parent, -1);
@@ -32,14 +33,14 @@ public class DisjointSet {
     return max;
   }
 
-  // A utility function to find the subset of an element i
-  private int find(int i) {
+  @Override
+  public int find(int i) {
     if (parent[i] == i) return i;
     return find(parent[i]);
   }
 
-  // A utility function to do union of two subsets
-  private void union(int x, int y) {
+  @Override
+  public void union(int x, int y) {
     int rootX = find(x);
     int rootY = find(y);
 
@@ -57,7 +58,8 @@ public class DisjointSet {
     }
   }
 
-  public int subsetSize() {
+  @Override
+  public int subnetNumber() {
     int result = 0;
     for (int i = 0; i < parent.length; i++) {
       if (i == parent[i]) result++;
@@ -65,6 +67,7 @@ public class DisjointSet {
     return result;
   }
 
+  @Override
   public boolean hasCycle() {
     return hasCycle;
   }

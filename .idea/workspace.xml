@@ -7,7 +7,7 @@
     <list default="true" id="55ddeafc-42d9-47a9-b378-e4fc2592fecb" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/Demo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Demo.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/unionfind/DisjointSet.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/unionfind/DisjointSet.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/unionfind/DisjointSet.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/disjointset/DisjointSet.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -22,6 +22,7 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="Interface" />
         <option value="Class" />
       </list>
     </option>
@@ -81,16 +82,5 @@
       <updated>1691659999981</updated>
     </task>
     <servers />
-  </component>
-  <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/Demo.java</url>
-          <line>18</line>
-          <option name="timeStamp" value="6" />
-        </line-breakpoint>
-      </breakpoints>
-    </breakpoint-manager>
   </component>
 </project>

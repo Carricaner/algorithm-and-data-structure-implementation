@@ -1,4 +1,4 @@
-import com.example.unionfind.DisjointSet;
+import com.example.disjointset.DisjointSet;
 
 public class Demo {
   public static void main(String[] args) {
@@ -15,7 +15,7 @@ public class Demo {
           {4, 5},
         };
     DisjointSet djs = new DisjointSet(edges);
-    System.out.println(djs.subsetSize());
+    System.out.println(djs.subsetNumber());
     System.out.println(djs.hasCycle());
   }
 }
