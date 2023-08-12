@@ -4,10 +4,12 @@ import java.util.Arrays;
 
 public class DisjointSet {
   private final int[] parent;
+  private final int[] rank;
   private boolean hasCycle = false;
 
   public DisjointSet(int[][] edges) {
     parent = new int[getMax(edges) + 1];
+    rank = new int[getMax(edges) + 1];
     Arrays.fill(parent, -1);
     for (int[] edge : edges) {
       parent[edge[0]] = edge[0];
@@ -38,7 +40,21 @@ public class DisjointSet {
 
   // A utility function to do union of two subsets
   private void union(int x, int y) {
-    parent[x] = y;
+    int rootX = find(x);
+    int rootY = find(y);
+
+    if (rootX == rootY) {
+      return;
+    }
+
+    if (rank[rootX] < rank[rootY]) {
+      parent[rootX] = rootY;
+    } else if (rank[rootX] > rank[rootY]) {
+      parent[rootY] = rootX;
+    } else {
+      parent[rootY] = rootX;
+      rank[rootX]++;
+    }
   }
 
   public int subsetSize() {

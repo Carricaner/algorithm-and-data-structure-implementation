@@ -12,7 +12,7 @@ public class Demo {
         new int[][] {
           {0, 1},
           {1, 2},
-          {2, 0},
+          {4, 5},
         };
     DisjointSet djs = new DisjointSet(edges);
     System.out.println(djs.subsetSize());
