@@ -5,7 +5,6 @@ import java.util.Arrays;
 public class DisjointSetInnerArrayDataStore implements UnionFindable{
   private final int[] parent;
   private final int[] rank;
-
   private boolean hasCycle = false;
 
   public DisjointSetInnerArrayDataStore(int[][] edges) {

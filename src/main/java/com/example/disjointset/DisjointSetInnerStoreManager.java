@@ -13,7 +13,7 @@ public class DisjointSetInnerStoreManager {
     if (type == null || type == Type.ARRAY) {
       return new DisjointSetInnerArrayDataStore(relations);
     } else {
-      return new DisjointSetInnerArrayDataStore(relations);
+      return new DisjointSetInnerMapDataStore(relations);
     }
   }
 
