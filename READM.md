@@ -4,10 +4,8 @@
 
 The project is to implement several algorithms & data structures with some test cases.
 
-### Algorithms
+### Data Structures & Algorithms
 
 - Union Find (w/ Disjoint Set)
+- Topological Sorting
 
-### Data Structures
-
-- Disjoint Set (Union Find)
