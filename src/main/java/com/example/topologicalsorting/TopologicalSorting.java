@@ -5,6 +5,7 @@ import java.util.HashMap;
 import java.util.LinkedList;
 import java.util.List;
 import java.util.Map;
+import java.util.Map.Entry;
 import java.util.Queue;
 
 class TopologicalSorting<T> {
@@ -63,6 +64,11 @@ class TopologicalSorting<T> {
       }
       res.add(poll);
     }
+
+    for (Entry<T, Integer> entry : indegreeMap.entrySet()) {
+      if (entry.getValue() > 0) return new ArrayList<>();
+    }
+
     return res;
   }
 }
