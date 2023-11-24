@@ -1,4 +1,4 @@
-package com.example.disjointset;
+package com.example.datastrucutre.disjointset;
 
 public interface UnionFindable {
   int find(int i);

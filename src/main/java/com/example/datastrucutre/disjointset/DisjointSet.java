@@ -1,6 +1,6 @@
-package com.example.disjointset;
+package com.example.datastrucutre.disjointset;
 
-import com.example.disjointset.DisjointSetInnerStoreManager.Type;
+import com.example.datastrucutre.disjointset.DisjointSetInnerStoreManager.Type;
 import java.util.Arrays;
 import java.util.List;
 

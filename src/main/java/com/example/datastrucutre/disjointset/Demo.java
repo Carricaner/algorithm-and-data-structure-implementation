@@ -1,6 +1,4 @@
-package com.example.disjointset;
-
-import com.example.disjointset.DisjointSet;
+package com.example.datastrucutre.disjointset;
 
 public class Demo {
   public static void main(String[] args) {

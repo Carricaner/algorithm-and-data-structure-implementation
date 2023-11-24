@@ -1,4 +1,4 @@
-package com.example.topologicalsorting;
+package com.example.algorithm.topologicalsorting;
 
 import java.util.ArrayList;
 import java.util.HashMap;

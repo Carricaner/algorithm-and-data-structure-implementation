@@ -1,4 +1,4 @@
-package com.example.disjointset;
+package com.example.datastrucutre.disjointset;
 
 import java.util.Arrays;
 
