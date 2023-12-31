@@ -11,7 +11,7 @@ public class Demo {
   }
 
   private static void demoNavigableSetAttributes() {
-    NavigableSet<String> navigableSet = new TreeSet();
+    NavigableSet<String> navigableSet = new TreeSet<>();
     navigableSet.add("Google");
     navigableSet.add("Amazon");
     navigableSet.add("Meta");
@@ -33,7 +33,7 @@ public class Demo {
   }
 
   private static void demoSortedSetAttributes() {
-    SortedSet<String> sortedSet = new TreeSet();
+    SortedSet<String> sortedSet = new TreeSet<>();
     sortedSet.add("Google");
     sortedSet.add("Amazon");
     sortedSet.add("Meta");

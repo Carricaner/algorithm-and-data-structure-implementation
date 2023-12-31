@@ -52,6 +52,8 @@ class TopologicalSorting<T> {
         });
     while (!queue.isEmpty()) {
       T poll = queue.poll();
+
+      // To check whether the current node is the one without any in-degree
       if (indegreeMap.get(poll) != 0) {
         return new ArrayList<>();
       }
@@ -65,6 +67,8 @@ class TopologicalSorting<T> {
       res.add(poll);
     }
 
+    // This part is to check whether all the in-degrees are removed after the traversal.
+    // If not, it means there is a sub-cycle inside.
     for (Entry<T, Integer> entry : indegreeMap.entrySet()) {
       if (entry.getValue() > 0) return new ArrayList<>();
     }
