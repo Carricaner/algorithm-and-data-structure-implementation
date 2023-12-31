@@ -1,4 +1,4 @@
-package com.example.datastrucutre.set.treeset;
+package com.example.datastructure.set.treeset;
 
 import java.util.NavigableSet;
 import java.util.SortedSet;

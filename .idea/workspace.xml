@@ -6,10 +6,9 @@
   <component name="ChangeListManager">
     <list default="true" id="55ddeafc-42d9-47a9-b378-e4fc2592fecb" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build.gradle.kts" beforeDir="false" afterPath="$PROJECT_DIR$/build.gradle.kts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/algorithm/topologicalsorting/Demo.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/algorithm/topologicalsorting/TopologicalSorting.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/algorithm/topologicalsorting/TopologicalSorting.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/datastrucutre/set/treeset/Demo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/datastrucutre/set/treeset/Demo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/datastrucutre/disjointset/Demo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/datastrucutre/disjointset/Demo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/datastrucutre/disjointset/DisjointSet.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/datastrucutre/disjointset/DisjointSet.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/datastrucutre/disjointset/DisjointSetInnerArrayDataStore.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/datastrucutre/disjointset/DisjointSetInnerArrayDataStore.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -87,13 +86,13 @@
       <recent name="com.example.algorithm.topologicalsorting" />
     </key>
   </component>
-  <component name="RunManager" selected="Gradle.TopologicalSortingTest">
-    <configuration name="Demo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.example.datastrucutre.set.treeset.Demo" />
+  <component name="RunManager" selected="Application.com.example.datastrucutre.disjointset.Demo">
+    <configuration name="com.example.datastrucutre.disjointset.Demo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.example.datastrucutre.disjointset.Demo" />
       <module name="algorithm-and-data-structure-implementation.main" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.example.datastrucutre.set.treeset.*" />
+          <option name="PATTERN" value="com.example.datastrucutre.disjointset.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -208,11 +207,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.com.example.datastrucutre.disjointset.Demo" />
         <item itemvalue="Gradle.TopologicalSortingTest" />
         <item itemvalue="Gradle.TopologicalSortingTest.testSort_A_Acyclic_Graph_But_Its_Subgraph_Is_Cyclic" />
         <item itemvalue="Gradle.TopologicalSortingTest.testSort_A_Cyclic_Graph" />
         <item itemvalue="Gradle.TopologicalSortingTest.testTopologicalSorting" />
-        <item itemvalue="Application.Demo" />
       </list>
     </recent_temporary>
   </component>

@@ -1,4 +1,4 @@
-package com.example.datastrucutre.disjointset;
+package com.example.datastructure.disjointset;
 
 import java.util.HashMap;
 import java.util.Map;
@@ -33,8 +33,7 @@ public class DisjointSetInnerMapDataStore implements UnionFindable {
     return parent.get(x);
   }
 
-  @Override
-  public void union(int x, int y) {
+  private void union(int x, int y) {
     int rootX = find(x);
     int rootY = find(y);
 

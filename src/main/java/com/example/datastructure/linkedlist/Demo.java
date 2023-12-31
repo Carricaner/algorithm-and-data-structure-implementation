@@ -1,4 +1,4 @@
-package com.example.datastrucutre.linkedlist;
+package com.example.datastructure.linkedlist;
 
 import java.util.Deque;
 import java.util.LinkedList;
