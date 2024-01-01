@@ -2,10 +2,10 @@
 
 ### Description
 
-The project is to implement several algorithms & data structures with some test cases.
+The project is to implement several algorithms & data structures.
 
 ### Data Structures & Algorithms
 
 - Union Find (w/ Disjoint Set)
 - Topological Sorting
-
+- Trie

@@ -6,9 +6,7 @@
   <component name="ChangeListManager">
     <list default="true" id="55ddeafc-42d9-47a9-b378-e4fc2592fecb" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/datastrucutre/disjointset/Demo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/datastrucutre/disjointset/Demo.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/datastrucutre/disjointset/DisjointSet.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/datastrucutre/disjointset/DisjointSet.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/datastrucutre/disjointset/DisjointSetInnerArrayDataStore.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/datastrucutre/disjointset/DisjointSetInnerArrayDataStore.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/READM.md" beforeDir="false" afterPath="$PROJECT_DIR$/READM.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -83,16 +81,19 @@
       <recent name="" />
     </key>
     <key name="CreateTestDialog.RecentsKey">
+      <recent name="com.example.datastructure.trie" />
+      <recent name="com.example.datastructure.disjointset" />
+      <recent name="com.example.datastrucutre.disjointset" />
       <recent name="com.example.algorithm.topologicalsorting" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.com.example.datastrucutre.disjointset.Demo">
-    <configuration name="com.example.datastrucutre.disjointset.Demo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.example.datastrucutre.disjointset.Demo" />
+  <component name="RunManager" selected="Gradle.TrieTest">
+    <configuration name="Demo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.example.datastructure.disjointset.Demo" />
       <module name="algorithm-and-data-structure-implementation.main" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.example.datastrucutre.disjointset.*" />
+          <option name="PATTERN" value="com.example.datastructure.disjointset.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -100,7 +101,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TopologicalSortingTest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+    <configuration name="DisjointSetTest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
@@ -113,7 +114,7 @@
           <list>
             <option value=":test" />
             <option value="--tests" />
-            <option value="&quot;com.example.algorithm.topologicalsorting.TopologicalSortingTest&quot;" />
+            <option value="&quot;com.example.datastructure.disjointset.DisjointSetTest&quot;" />
           </list>
         </option>
         <option name="vmOptions" />
@@ -124,7 +125,7 @@
       <ForceTestExec>true</ForceTestExec>
       <method v="2" />
     </configuration>
-    <configuration name="TopologicalSortingTest.testSort_A_Acyclic_Graph_But_Its_Subgraph_Is_Cyclic" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+    <configuration name="DisjointSetTest.testDisjointSet_Given_An_Acyclic_Graph" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
@@ -137,7 +138,7 @@
           <list>
             <option value=":test" />
             <option value="--tests" />
-            <option value="&quot;com.example.algorithm.topologicalsorting.TopologicalSortingTest.testSort_A_Acyclic_Graph_But_Its_Subgraph_Is_Cyclic&quot;" />
+            <option value="&quot;com.example.datastructure.disjointset.DisjointSetTest.testDisjointSet_Given_An_Acyclic_Graph&quot;" />
           </list>
         </option>
         <option name="vmOptions" />
@@ -148,7 +149,7 @@
       <ForceTestExec>true</ForceTestExec>
       <method v="2" />
     </configuration>
-    <configuration name="TopologicalSortingTest.testSort_A_Cyclic_Graph" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+    <configuration name="InnerArrayDataStore.testDisjointSet_Return_Multiple_Subsets" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
@@ -161,7 +162,7 @@
           <list>
             <option value=":test" />
             <option value="--tests" />
-            <option value="&quot;com.example.algorithm.topologicalsorting.TopologicalSortingTest.testSort_A_Cyclic_Graph&quot;" />
+            <option value="&quot;com.example.datastructure.disjointset.DisjointSetTest$InnerArrayDataStore.testDisjointSet_Return_Multiple_Subsets&quot;" />
           </list>
         </option>
         <option name="vmOptions" />
@@ -172,7 +173,7 @@
       <ForceTestExec>true</ForceTestExec>
       <method v="2" />
     </configuration>
-    <configuration name="TopologicalSortingTest.testTopologicalSorting" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+    <configuration name="TrieTest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
@@ -185,7 +186,7 @@
           <list>
             <option value=":test" />
             <option value="--tests" />
-            <option value="&quot;com.example.algorithm.topologicalsorting.TopologicalSortingTest.testTopologicalSorting&quot;" />
+            <option value="&quot;com.example.datastructure.trie.TrieTest&quot;" />
           </list>
         </option>
         <option name="vmOptions" />
@@ -207,11 +208,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Gradle.TrieTest" />
+        <item itemvalue="Gradle.DisjointSetTest" />
+        <item itemvalue="Gradle.InnerArrayDataStore.testDisjointSet_Return_Multiple_Subsets" />
+        <item itemvalue="Gradle.DisjointSetTest.testDisjointSet_Given_An_Acyclic_Graph" />
         <item itemvalue="Application.com.example.datastrucutre.disjointset.Demo" />
-        <item itemvalue="Gradle.TopologicalSortingTest" />
-        <item itemvalue="Gradle.TopologicalSortingTest.testSort_A_Acyclic_Graph_But_Its_Subgraph_Is_Cyclic" />
-        <item itemvalue="Gradle.TopologicalSortingTest.testSort_A_Cyclic_Graph" />
-        <item itemvalue="Gradle.TopologicalSortingTest.testTopologicalSorting" />
       </list>
     </recent_temporary>
   </component>
